@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "finegeyserchat",
+  "version": "${version}",
+  "name": "FineGeyserChat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/FineGeyserChat/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "eu.ifine.finegeyserchat.FineGeyserChat"
+    ]
+  },
+  "mixins": [
+    "FineGeyserChat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
